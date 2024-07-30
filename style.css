@@ -1,0 +1,73 @@
+/* 背景画像の設定 */
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('resource/image/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    /* これ必要か？ */
+}
+
+/* Header Area */
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(150, 150, 150, .5)
+}
+
+header h1 {
+    color: white;
+    font-size: 5vw;
+    text-shadow: 5px 5px 0 #777;
+    margin: 0;
+}
+
+header nav {
+    margin-top: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+header nav a:hover {
+    background-color: #333;
+}
+
+header nav a svg {
+    width: 1em;
+    height: 1em;
+    display: block;
+    margin: auto;
+    /* これ必要か？ */
+}
+
+/* Content Area */
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: rgba(50, 50, 50, .5);
+}
+
+section h2 {
+    font-size: 5vw;
+}
