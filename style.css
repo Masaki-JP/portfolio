@@ -11,6 +11,7 @@ body {
     background-attachment: fixed;
     height: auto;
     /* これ必要か？ */
+    font-family: sans-serif;
 }
 
 /* Header Area */
@@ -22,7 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(150, 150, 150, .5)
+    background-color: rgba(75, 75, 75, .5);
 }
 
 header h1 {
@@ -63,11 +64,34 @@ header nav a svg {
 /* Content Area */
 
 section {
-    padding: 2rem 0;
+    padding: 5rem 0;
     text-align: center;
-    background-color: rgba(50, 50, 50, .5);
+    background-color: rgba(10, 10, 10, .75);
 }
 
 section h2 {
-    font-size: 5vw;
+    font-size: 3.5vw;
+    color: #DDD;
+    margin: 0px;
+}
+
+section video {
+    height: 60vh;
+    max-height: 1000px;
+    margin-top: 10px;
+}
+
+section div a {
+    font-size: 17px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 20px;
+    background-color: #777;
+    border-radius: 30px;
+    margin: 7px 5px 0px 5px;
+}
+
+section div a:hover {
+    background-color: black;
 }
