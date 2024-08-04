@@ -98,3 +98,18 @@ header nav a svg {
 .app-preview-sec div a:hover {
     background-color: black;
 }
+
+.others {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.others p {
+    margin-bottom: 0;
+    color: #DDD;
+}
+
+.others p a {
+    color: skyblue;
+    margin-left: 1em;
+}
